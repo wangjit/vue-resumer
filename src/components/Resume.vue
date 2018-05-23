@@ -3,6 +3,7 @@
     <div class=page>
       <header>
         <Topbar/>
+        <router-link class="button preview" to="/preview" >preview</router-link>
       </header>
       <main>
         <ResumeEditor/>
@@ -27,6 +28,13 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+header {
+  .preview {
+    position: fixed;
+    right: 50px;
+    top: 108px;
+  }
+}
 #resumeEditor {
   min-width: 35%;
   background: #444;

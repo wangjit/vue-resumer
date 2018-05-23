@@ -1,9 +1,6 @@
 <template>
   <div id="resumePreview">
-
-    <button class="button" @click="save">save</button>
-    <router-link class="button" to="/preview">preview</router-link>
-
+    <button class="button save" @click="save">save</button>
     <section data-name="profile" v-if="resume.profile && resume.profile.name">
       <h1>
         {{resume.profile.name}}

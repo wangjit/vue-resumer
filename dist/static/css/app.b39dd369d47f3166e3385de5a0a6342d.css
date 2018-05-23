@@ -513,6 +513,11 @@ svg.icon {
     /* 试试不加这句会怎样 */
     align-self: center; }
 
+header .preview[data-v-02a762a8] {
+  position: fixed;
+  right: 50px;
+  top: 108px;
+}
 #resumeEditor[data-v-02a762a8] {
   min-width: 35%;
   background: #444;
@@ -723,4 +728,10 @@ hr[data-v-fa2d228e] {
     padding-right: 1em;
 }
 
-/*# sourceMappingURL=app.13c3e43b273c502ae432c073ed3ddd8c.css.map*/
+.back {
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+/*# sourceMappingURL=app.b39dd369d47f3166e3385de5a0a6342d.css.map*/
