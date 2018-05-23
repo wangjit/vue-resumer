@@ -1,6 +1,7 @@
 <template>
   <div id="resumePreview">
-    <button class="button save" @click="save">save</button>
+    
+    <button  type="button" class="btn btn-default save" @click="save">save</button>
     <section data-name="profile" v-if="resume.profile && resume.profile.name">
       <h1>
         {{resume.profile.name}}

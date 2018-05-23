@@ -1,9 +1,9 @@
 <template>
   <div>
     
-    <button class="sap button" @click="saveAsImage">存为图片</button>
+    <button type="button" class="sap btn btn-default" @click="saveAsImage">存为图片</button>
     <ResumePreview />
-    <router-link class="back button" to="/" >back</router-link>
+    <router-link class="back" to="/" ><button type="button" class="btn btn-default">back</button></router-link>
     
   </div>
 </template>

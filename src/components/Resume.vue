@@ -3,7 +3,8 @@
     <div class=page>
       <header>
         <Topbar/>
-        <router-link class="button preview" to="/preview" >preview</router-link>
+        
+        <router-link class="button preview"  to="/preview" ><button type="button" class="btn btn-default"> preview</button></router-link>
       </header>
       <main>
         <ResumeEditor/>
